@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Reset */
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/** For Mobiles */
+
+/** For Laptop tablets */
+
+/** --------------------------------- */
+.btn-green {
+  @apply flex items-center justify-center py-1 before:content-[url('/images/green-lock-icon.svg')] w-full before:pt-1 before:pr-2 before:box-border px-7 m-auto text-white border-2 border-dark_green hover:border-dark_green hover:bg-white hover:text-dark_green bg-dark_green;
+}
+.btn-green-second {
+  @apply w-full flex items-center px-12 justify-center whitespace-nowrap py-2.5 before:pt-1 before:pr-3 before:content-[url('/images/people-icon.svg')] text-white border-2  bg-dark_green border-dark_green hover:bg-white hover:text-dark_green;
+}
+.green-button-link {
+  @apply flex items-center justify-center py-2.5 sm:py-2 my-5 text-white border-2 px-14 whitespace-nowrap border-dark_green bg-dark_green sm:flex sm:justify-center  before:content-[url('/images/link-icon.svg')] sm:before:pt-0.5 before:mt-1 before:pr-3;
+}
+.green-button-second {
+  @apply mb-0;
+}
+.btn-white {
+  @apply flex items-center justify-center w-full py-1.5 before:content-[url('/images/people-icon.svg')] before:pt-1 before:pr-2  px-7 m-auto bg-white border-2 border-dark_green hover:bg-dark_green hover:text-white text-dark_green;
+}
+.btn-white-second {
+  @apply w-full flex items-center justify-center whitespace-nowrap py-2 before:pt-1 before:pr-3 before:content-[url('/images/lock-icon.svg')] text-dark_green px-14 border-dark_green hover:border-dark_green hover:bg-dark_green bg-white border-2 hover:text-white;
+}
+
+.select-list {
+  @apply mt-5 list-none;
+}
+
+.job-input {
+  @apply cursor-pointer after:content-[url('/images/play-arrow.svg')] after:absolute  after:top-2 px-7  text-white py-2 bg-olive_green inline-block;
+}
+.job-input-second {
+  @apply cursor-pointer bg-no-repeat pr-5 bg-right relative  bg-[url('/images/play-arrow.svg')];
+}
+
+.search-input {
+  @apply cursor-pointer flex justify-between mt-3 py-1.5 w-full sm:w-auto  inline-flex px-4 text-white before:pr-3 items-center bg-olive_green before:content-[url('/images/three-line-icon.svg')] before:pt-2;
+}
+
+.company {
+  @apply bg-[url('/images/chair-icon.svg')] mb-1 font-bold bg-no-repeat pl-5 bg-left;
+}
+
+.location {
+  @apply bg-[url('/images/location-icon.svg')] mb-1 font-bold bg-no-repeat pl-5 bg-left;
+}
+
+.alarm {
+  @apply bg-[url('/images/alarm-icon.svg')]  bg-no-repeat pl-5 bg-left;
+}
+.couple {
+  @apply bg-[url('/images/couple-icon.svg')]  bg-no-repeat pl-5 bg-left;
+}
+.write-pad {
+  @apply bg-[url('/images/write-pad.svg')]  bg-no-repeat pl-5 bg-left;
+}
+
+.couple-second {
+  @apply bg-[url('/images/couple-icon-black.svg')] mb-1 bg-no-repeat pl-7 bg-left;
+}
+
+.red-bell {
+  @apply bg-[url('/images/bell-icon-red.svg')]  bg-no-repeat pl-7 bg-left;
+}
+
+.write-pad-black {
+  @apply bg-[url('/images/write-pad-icon-black.svg')] mb-1 bg-no-repeat pl-7 bg-left;
+}
+.identity {
+  @apply bg-[url('/images/identity-icon-black.svg')] mb-1 bg-no-repeat pl-7 bg-left;
+}
+
+.btn-red {
+  @apply before:content-[url('/images/tableBell-icon.svg')] sm:w-auto w-full my-5 py-2.5 px-7 sm:before:pr-14 before:pr-3 bg-white border-2 text-dark_red border-dark_red hover:border-dark_green hover:bg-dark_green hover:text-white;
+}
+
+.red-text-icon-1 {
+  @apply bg-[url('/images/triangle-icon.svg')] text-xs bg-no-repeat pl-5 bg-left;
+}
+
+.red-text-icon-2 {
+  @apply bg-[url('/images/star-icon.svg')] text-xs bg-no-repeat pl-5 bg-left;
+}
+
+.link-icon-green-button {
+  @apply bg-[url('/images/link-icon.svg')]  bg-no-repeat  bg-left;
+}
+.package-correct {
+  @apply bg-[url('/images/correct-icon.svg')]  bg-no-repeat pl-6 bg-left;
+}
+.package-correct-white {
+  @apply bg-[url('/images/correct-white-icon.svg')]  bg-no-repeat pl-6 bg-left;
+}
+
+.upload-button {
+  @apply before:content-[url('/images/upload-icon.svg')] before:pt-1 after:content-[url('/images/red-lock-icon.svg')] after:text-center after:px-2 after:border-2 flex justify-between items-center px-3 py-0.5 after:border-text_grey;
+}
+.submit-input {
+  @apply block after:content-[url('/images/play-arrow.svg')] after:pt-1.5 flex sm:justify-between my-5 sm:my-0 justify-center after:pl-5 px-5 sm:after:pl-14 py-2 bg-olive_green text-center items-center cursor-pointer text-white;
+}
+.package-input {
+  @apply block after:content-[url('/images/play-arrow.svg')] after:pt-1.5 flex  my-5 sm:my-0 justify-center after:pl-3 px-5  py-2.5 bg-dark_green text-center items-center cursor-pointer text-white;
+}
+.package-input-olive {
+  @apply bg-olive_green;
+}
+.check-input-one[type="checkbox"]::after {
+  content: url("/images/check-icon.svg");
+  display: none;
+}
+.check-input-two[type="checkbox"]::after {
+  content: url("/images/check-icon.svg");
+  display: none;
+}
+
+.check-input-one[type="checkbox"]:checked {
+  background-color: #ecf1e4;
+}
+
+.check-input-one[type="checkbox"]:checked::after {
+  display: block;
+}
+.check-input-two[type="checkbox"]:checked::after {
+  display: block;
+}
+.check-input-two[type="checkbox"]:checked {
+  background-color: #ecf1e4;
+}
+
+.check-input-three[type="checkbox"]::after {
+  content: url("/images/check-icon.svg");
+  display: none;
+}
+
+.check-input-three[type="checkbox"]:checked {
+  background-color: #ecf1e4;
+}
+
+.check-input-three[type="checkbox"]:checked::after {
+  display: block;
+}

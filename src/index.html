@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital Equipments</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section>
+      <section class="pt-4 mx-auto border border-solid sm:px-0 main-container">
+        <header class="mx-auto sm:mb-12">
+          <!--+------------------------------------- Navbar-Section --------------------------------->
+          <nav class="px-5 mx-auto sm:px-5 max-w-1300">
+            <ul
+              class="flex justify-between text-base font-bold text-text_grey sm:justify-end sm:gap-5"
+            >
+              <li class="hover:text-olive_green">
+                <a href="#">Unternehmen</a>
+              </li>
+              <li class="hover:text-olive_green">
+                <a href="#">Arbeitssuchende</a>
+              </li>
+              <li class="hover:text-olive_green">
+                <a href="#">Veröffentlichen</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- * logo - Button --->
+          <nav class="px-4 mx-auto mt-5 logo-button sm:px-5 max-w-1300">
+            <ul class="items-center justify-center mb-3 sm:flex">
+              <li class="text-center text-dark_green">
+                <img
+                  class="inline-block mx-auto w-96"
+                  src="/images/myLogo.svg"
+                  alt=""
+                />
+                <p class="mt-1.5 sm:text-left">
+                  Coole Jobs für Menschen mit einem Handicap
+                </p>
+              </li>
+              <div class="gap-3 mt-3 ml-auto sm:mt-0 sm:flex">
+                <div class="mb-3 sm:mb-0">
+                  <button class="btn-green">Einloggen</button>
+                </div>
+                <div class="">
+                  <button class="btn-white">Kostenlos anmelden</button>
+                </div>
+              </div>
+            </ul>
+          </nav>
+
+          <!--+------------------------------------- Banner---Page ----------------------------------->
+          <section class="py-8 banner bg-dark_green">
+            <!-- * ---------- Banner--Title ----------->
+            <div class="px-5 mx-auto max-w-1300 sm:px-5">
+              <div class="text-center sm:text-left">
+                <h1
+                  class="text-3xl font-bold text-white uppercase sm:w-7/12 sm:text-6xl"
+                >
+                  Arbeit für Menschen mit einem Handicap
+                </h1>
+                <h2 class="text-2xl font-bold text-white">
+                  Wir haben offene Jobs fur Menschen mit Behinderung!
+                </h2>
+              </div>
+              <!-- *----------- Select-- Input-- Button -------- -->
+
+              <ul class="sm:items-end sm:mb-5 sm:gap-4 sm:mt-20 sm:flex">
+                <li class="select-list sm:flex-1 sm:col-start-1 sm:col-end-6">
+                  <h3 class="font-bold text-white sm:text-2xl">
+                    Welchen Job suchst Du?
+                  </h3>
+
+                  <div class="flex">
+                    <select
+                      class="w-32 py-3.5 pl-1 border-r bg-extra_light_green text-dark_green border-dark_green"
+                    >
+                      <option value="0">Bitte wählen</option>
+                      <option value="1">Offene Stellen Gastronomie</option>
+                      <option value="2">Aushilfsjobs Bürotätigkeiten</option>
+                      <option value="3">Praktika für Behinderte</option>
+                      <option value="4">Jobs im Ausland</option>
+                    </select>
+                    <input
+                      class="w-full px-3"
+                      type=""
+                      name="searct"
+                      id="search"
+                      placeholder="z.B. Beruf, Stichwort, Referenznummer"
+                    />
+                  </div>
+                </li>
+                <li class="select-list sm:flex-1 sm:col-start-6 sm:col-end-11">
+                  <h3 class="font-bold text-white sm:text-2xl">
+                    Wo möchtest du arbeiten?
+                  </h3>
+                  <div class="flex w-full">
+                    <select
+                      class="w-32 py-3.5 pl-14 border-r bg-extra_light_green text-dark_green border-dark_green"
+                    >
+                      <option value="0">25 KM</option>
+                      <option value="1">50 KM</option>
+                      <option value="2">100 KM</option>
+                      <option value="3">150 KM</option>
+                      <option value="4">200 KM</option>
+                    </select>
+                    <input
+                      class="w-full px-3"
+                      type=""
+                      name="search"
+                      id="search"
+                      placeholder="Gib hier deine Stadt / Ort oder PLZ ein"
+                    />
+                  </div>
+                </li>
+
+                <label for="submit" class="submit-input"
+                  >Job finden
+                  <input class="" type="submit" name="" value="" id="submit" />
+                </label>
+              </ul>
+
+              <!--*--------- Jobs List Item  -------------->
+              <div class="list-none jobs-list">
+                <ul
+                  class="text-center text-white underline sm:flex sm:justify-between"
+                >
+                  <li class="pb-5">
+                    <a href="#">Jobs in der Gastronomie </a>
+                  </li>
+                  <li class="pb-5">
+                    <a href="#">Jobs im Einzelhandel </a>
+                  </li>
+                  <li class="pb-5">
+                    <a href="#">Jobs im sozialen Bereich </a>
+                  </li>
+                  <li class="pb-5">
+                    <a href="#">Jobs im technischen Bereich</a>
+                  </li>
+                  <li class="pb-5">
+                    <a href="#">Jobs auf Stundenbasis</a>
+                  </li>
+                  <li>
+                    <a href="#">Jobs auf Stundenbasis</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </header>
+
+        <!--+--------------------------------- Welcome Text and Big Image Section ------------------------->
+        <section class="">
+          <!--*-------- Text and Input ------------>
+          <div
+            class="px-5 mx-auto welcome-container max-w-1300 sm:px-5 sm:grid sm:grid-cols-12"
+          >
+            <div class="my-5 sm:col-start-1 sm:col-end-7 welcome-text-input">
+              <h4
+                class="text-3xl font-bold uppercase text-dark_green sm:text-6xl sm:normal-case"
+              >
+                Herzlich Willkommen
+              </h4>
+              <h5 class="my-3 text-2xl font-bold leading-7">
+                Coole Jobs für Menschen mit einem Handicap
+              </h5>
+              <p class="text-extra_light_grey">
+                Wir freuen uns sehr, dass Sie den Weg hierher gefunden haben.
+                Egal ob Sie bereits im Arbeitsleben standen oder auf der Suche
+                nach neuen beruflichen Herausforderungen sind, bei uns sind Sie
+                genau richtig!
+              </p>
+
+              <p class="text-extra_light_grey sm:mt-7">
+                Hier finden Sie interessante Jobangebote speziell für Menschen
+                mit Behinderung. Wir glauben an Ihr Potential und möchten Ihnen
+                helfen, den perfekten Arbeitsplatz zu entdecken. Durchstöbern
+                Sie unsere vielfältigen Angebote und zeigen Sie, dass Ihre
+                Fähigkeiten eine Bereicherung sind. Gemeinsam schaffen wir eine
+                inklusive Arbeitswelt, in der Sie Ihre beruflichen Ziele
+                erreichen können. Viel Erfolg bei Ihrer Suche!
+              </p>
+              <h5
+                class="text-2xl font-bold uppercase mt-7 text-dark_green sm:text-black"
+              >
+                Neue Anzeigen
+              </h5>
+
+              <label class="search-input" for="submit"
+                >Sucheinstellungen verändern
+                <input class="" type="submit" value="" id="submit" />
+              </label>
+            </div>
+
+            <!--*---------- Big Image --------------->
+            <div
+              class="relative flex welcome-image sm:col-end-13 sm:col-start-7"
+            >
+              <img src="/images/men-lady-image.svg" alt="" />
+              <div
+                class="absolute top-0 flex items-center justify-center w-32 h-32 pl-1 pt-2.5 rounded-full bg-dark_red sm:top-2 sm:right-12 sm:w-40 sm:h-40 sm:rounded-full sm:px-3"
+              >
+                <h6
+                  class="leading-4 text-center text-white sm:text-xl sm:leading-5"
+                >
+                  &ldquo;Endlich einen Job gefunden der für mich passt!&rdquo;
+                </h6>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--+---------------------------------- Update Package ------------------------------------->
+        <section>
+          <div class="px-5 mx-auto package-container max-w-1300 sm:pr-0">
+            <h6
+              class="text-3xl font-bold text-dark_green sm:text-6xl sm:normal-case"
+            >
+              Wählen Sie das Paket was zu Ihnen passt …
+            </h6>
+
+            <!--*-------------- Card One --------------->
+            <div
+              class="gap-5 mt-5 package-card-container sm:grid sm:grid-cols-12"
+            >
+              <div
+                class="p-4 mb-5 border border-text_grey package-card sm:col-start-1 sm:col-end-5 bg-extra_light_green"
+              >
+                <h6
+                  class="mx-auto my-6 text-3xl font-bold text-center uppercase sm:text-4xl lg:text-6xl lg:px-14 text-light_grey px-14 sm:px-0"
+                >
+                  Starter Paket 149,-
+                </h6>
+
+                <p
+                  class="mx-auto text-xs font-bold text-center text-light_grey"
+                >
+                  "Veröffentlichen Sie Ihr Stellenangebot auf unserer
+                  Job-Plattform speziell für Schwerbehinderte und finden Sie
+                  schnell und unkompliziert den passenden Bewerber.“
+                </p>
+                <div class="pb-16">
+                  <ul class="flex justify-center mt-3">
+                    <li
+                      class="text-lg font-bold package-correct text-dark_green"
+                    >
+                      Lorem Ipsum
+                    </li>
+                  </ul>
+                  <ul class="flex justify-center">
+                    <li
+                      class="text-lg font-bold package-correct text-dark_green"
+                    >
+                      Lorem Ipsum
+                    </li>
+                  </ul>
+                </div>
+                <div class="mb-7">
+                  <label for="submit" class="package-input"
+                    >Paket jetzt buchen
+                    <input
+                      class=""
+                      type="submit"
+                      name=""
+                      value=""
+                      id="submit"
+                    />
+                  </label>
+                </div>
+                <ul class="">
+                  <li class="lg:px-36 sm:px-0">
+                    <img
+                      class="mx-auto mb-1"
+                      src="/images/alarm-icon-package.svg"
+                      alt=""
+                    />
+                    <h6 class="text-xl font-bold text-center text-dark_green">
+                      Laufzeiten 30 Tage
+                    </h6>
+                  </li>
+                </ul>
+              </div>
+
+              <!--*-------------- Card Two --------------->
+              <div
+                class="relative p-4 mb-5 border border-text_grey package-card sm:col-start-5 sm:col-end-9"
+              >
+                <h6
+                  class="mx-auto my-6 text-3xl font-bold text-center uppercase sm:text-4xl lg:text-6xl lg:px-14 text-dark_green px-14 sm:px-0"
+                >
+                  Business Paket 299,-
+                </h6>
+                <p
+                  class="mx-auto text-xs font-bold text-center text-light_grey"
+                >
+                  "Veröffentlichen Sie Ihr Stellenangebot auf unserer
+                  Job-Plattform speziell für Schwerbehinderte und finden Sie
+                  schnell und unkompliziert den passenden Bewerber.“
+                </p>
+                <div class="pb-10">
+                  <ul class="flex justify-center mt-3">
+                    <li
+                      class="text-lg font-bold package-correct text-dark_green"
+                    >
+                      Lorem Ipsum
+                    </li>
+                  </ul>
+
+                  <ul class="flex justify-center">
+                    <li
+                      class="text-lg font-bold package-correct text-dark_green"
+                    >
+                      Lorem Ipsum
+                    </li>
+                  </ul>
+                  <ul class="flex justify-center">
+                    <li
+                      class="text-lg font-bold package-correct text-dark_green"
+                    >
+                      Lorem Ipsum
+                    </li>
+                  </ul>
+                </div>
+                <div class="mb-7">
+                  <label for="submit" class="package-input"
+                    >Paket jetzt buchen
+                    <input
+                      class=""
+                      type="submit"
+                      name=""
+                      value=""
+                      id="submit"
+                    />
+                  </label>
+                </div>
+                <ul class="flex flex-col lg:px-16 lg:px-0 lg:flex-row">
+                  <li class="sm:mb-4 lg:px-0">
+                    <img
+                      class="mx-auto mb-1"
+                      src="/images/alarm-icon-package.svg"
+                      alt=""
+                    />
+                    <h6 class="text-xl font-bold text-center text-dark_green">
+                      Laufzeiten 60 Tage
+                    </h6>
+                  </li>
+                  <li class="">
+                    <img
+                      class="mx-auto mb-1"
+                      src="/images/rocket-icon.svg"
+                      alt=""
+                    />
+                    <h6 class="text-xl font-bold text-center text-dark_green">
+                      Reichweiten Booster
+                    </h6>
+                  </li>
+                </ul>
+                <ul class="absolute top-0 right-0 px-4 py-1 bg-dark_red">
+                  <li class="text-xs text-white uppercase">Am beliebtesten</li>
+                </ul>
+              </div>
+
+              <!--*-------------- Card Three --------------->
+              <div
+                class="relative p-4 mb-5 border bg-dark_green border-text_grey package-card sm:col-start-9 sm:col-end-13"
+              >
+                <h6
+                  class="mx-auto my-6 text-3xl font-bold after:font-normal text-center uppercase sm:text-4xl lg:after:font-bold lg:text-6xl lg:px-14 text-olive_green px-14 sm:px-0 after:content-['bisher$879;'] after:block after:text-xs lg:after:absolute lg:after:text-sm lg:after:right-20 lg:after:top-1/4 after:text-white after:lowercase after:line-through"
+                >
+                  Premium Paket 599,-
+                </h6>
+                <p class="mx-auto text-xs font-bold text-center text-white">
+                  "Veröffentlichen Sie Ihr Stellenangebot auf unserer
+                  Job-Plattform speziell für Schwerbehinderte und finden Sie
+                  schnell und unkompliziert den passenden Bewerber.“
+                </p>
+                <div class="pb-3.5">
+                  <ul class="flex justify-center mt-3">
+                    <li
+                      class="text-lg font-bold text-white package-correct-white"
+                    >
+                      Lorem Ipsum
+                    </li>
+                  </ul>
+                  <ul class="flex justify-center">
+                    <li
+                      class="text-lg font-bold text-white package-correct-white"
+                    >
+                      Lorem Ipsum
+                    </li>
+                  </ul>
+                  <ul class="flex justify-center">
+                    <li
+                      class="text-lg font-bold text-white package-correct-white"
+                    >
+                      Lorem Ipsum
+                    </li>
+                  </ul>
+                  <ul class="flex justify-center">
+                    <li
+                      class="text-lg font-bold text-white package-correct-white"
+                    >
+                      Lorem Ipsum
+                    </li>
+                  </ul>
+                </div>
+                <div class="mb-7">
+                  <label for="submit" class="package-input package-input-olive"
+                    >Paket jetzt buchen
+                    <input
+                      class=""
+                      type="submit"
+                      name=""
+                      value=""
+                      id="submit"
+                    />
+                  </label>
+                </div>
+                <ul
+                  class="flex flex-col px-4 lg:px-4 sm:px-0 lg:flex-row sm:flex-col"
+                >
+                  <li class="mb-4">
+                    <img
+                      class="mx-auto mb-1"
+                      src="/images/alarm-icon-package-white.svg"
+                      alt=""
+                    />
+                    <h6 class="text-xl font-bold text-center text-white">
+                      Laufzeiten 365 Tage
+                    </h6>
+                  </li>
+                  <li class="mb-4">
+                    <img
+                      class="mx-auto mb-1"
+                      src="/images/rocket-icon-white.svg"
+                      alt=""
+                    />
+                    <h6 class="text-xl font-bold text-center text-white">
+                      Reichweiten Booster
+                    </h6>
+                  </li>
+                  <li>
+                    <img
+                      class="pt-2 mx-auto mb-1 -rotate-45"
+                      src="/images/package-speaker-white.svg"
+                      alt=""
+                    />
+                    <h6 class="text-xl font-bold text-center text-white">
+                      Social Booster
+                    </h6>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--+---------------------------------- Main Section --------------------------------------->
+
+        <section class="">
+          <div
+            class="px-5 mx-auto main-section-container sm:max-w-1300 sm:pr-0"
+          >
+            <!--*--------- Small-Box-Sextion ------------>
+            <div class="box-container sm:grid sm:grid-cols-12 sm:gap-5">
+              <div class="small-box-container sm:col-start-1 sm:col-end-5">
+                <div class="relative">
+                  <a class="" href="#">
+                    <div
+                      class="p-4 mb-5 border hover:bg-extra_light_green section-box-small border-light_grey"
+                    >
+                      <p class="text-xs text-dark_green">
+                        Fachinformatiker/in-Anwendungsentwicklung
+                      </p>
+                      <h6 class="text-2xl font-bold text-dark_green">
+                        PHP-Entwickler:in (m/w/d)
+                      </h6>
+                      <ul>
+                        <li class="font-bold company">Max Mustermann GmbH</li>
+                        <li class="font-bold location">Berlin</li>
+                      </ul>
+                      <ul
+                        class="flex justify-between text-sm font-bold text-dark_green"
+                      >
+                        <li class="alarm">ab sofort</li>
+                        <li class="couple">8 Bewerbungen</li>
+                        <li class="write-pad">vor 1 Tagen</li>
+                      </ul>
+                    </div>
+                    <div class="absolute top-0 right-0 px-2 bg-dark_red">
+                      <h6 class="text-xs text-white red-text-icon-1">
+                        NEUE ANZEIGE
+                      </h6>
+                    </div>
+                  </a>
+                </div>
+                <div class="relative">
+                  <a class="" href="">
+                    <div
+                      class="p-4 mb-5 border section-box-small hover:bg-extra_light_green border-light_grey"
+                    >
+                      <p class="text-xs text-dark_green">Print und Web</p>
+                      <h6 class="text-2xl font-bold text-dark_green">
+                        Designer:in (m/w/d)
+                      </h6>
+                      <ul>
+                        <li class="font-bold company">Max Mustermann GmbH</li>
+                        <li class="font-bold location">Münster</li>
+                      </ul>
+                      <ul
+                        class="flex justify-between text-sm font-bold text-dark_green"
+                      >
+                        <li class="alarm">ab sofort</li>
+                        <li class="couple">8 Bewerbungen</li>
+                        <li class="write-pad">vor 1 Tagen</li>
+                      </ul>
+                    </div>
+                    <div class="absolute right-0 px-2 bg-dark_red">
+                      <h6 class="text-xs text-white red-text-icon-2">
+                        TOP ANZEIGE
+                      </h6>
+                    </div>
+                  </a>
+                </div>
+                <a href="">
+                  <div
+                    class="p-4 mb-5 border section-box-small hover:bg-extra_light_green border-light_grey"
+                  >
+                    <p class="text-xs text-dark_green">
+                      Onlinemarketing / Schwerpunkt Newsletter
+                    </p>
+                    <h6 class="mb-1 text-2xl font-bold text-dark_green">
+                      Onlinemarketing:in (m/w/d)
+                    </h6>
+                    <ul>
+                      <li class="company">Max Mustermann GmbH</li>
+                      <li class="location">Hamburg</li>
+                    </ul>
+                    <ul
+                      class="flex justify-between text-sm font-bold text-dark_green"
+                    >
+                      <li class="alarm">ab sofort</li>
+                      <li class="couple">8 Bewerbungen</li>
+                      <li class="write-pad">vor 1 Tagen</li>
+                    </ul>
+                  </div>
+                </a>
+
+                <!--*---------- Pagination ------------------->
+                <div class="">
+                  <ul class="flex items-center justify-center mb-5">
+                    <li
+                      class="flex items-center justify-center flex-1 px-0 py-2 leading-none border border-r-0 hover:bg-extra_light_green text-dark_green page-number border-text_grey"
+                    >
+                      <a class="text-2xl" href="">&#8249;</a>
+                    </li>
+                    <li
+                      class="flex items-center justify-center flex-1 py-3 border border-r-0 page-number hover:bg-extra_light_green text-dark_green border-text_grey"
+                    >
+                      <a class="" href="">1</a>
+                    </li>
+                    <li
+                      class="flex items-center justify-center flex-1 py-3 border border-r-0 page-number hover:bg-extra_light_green text-dark_green border-text_grey"
+                    >
+                      <a href="">2</a>
+                    </li>
+                    <li
+                      class="flex items-center justify-center flex-1 py-3 border border-r-0 page-number hover:bg-extra_light_green text-dark_green border-text_grey"
+                    >
+                      <a href="">3</a>
+                    </li>
+                    <li
+                      class="flex items-center justify-center flex-1 py-3 border border-r-0 page-number hover:bg-extra_light_green text-dark_green border-text_grey"
+                    >
+                      <a href="">4</a>
+                    </li>
+                    <li
+                      class="flex items-center justify-center flex-1 py-3 border border-r-0 page-number hover:bg-extra_light_green text-dark_green border-text_grey"
+                    >
+                      <a href="">5</a>
+                    </li>
+                    <li
+                      class="flex items-center justify-center flex-1 py-3 border border-r-0 page-number hover:bg-extra_light_green text-dark_green border-text_grey"
+                    >
+                      <a href="">6</a>
+                    </li>
+                    <li
+                      class="flex items-center justify-center flex-1 py-2 border page-number hover:bg-extra_light_green text-dark_green border-text_grey"
+                    >
+                      <a class="text-2xl" href="">&#8250;</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!--*----------- Big-Box-Section --------------->
+              <div class="big-box-container sm:col-start-5 sm:col-end-13">
+                <div
+                  class="p-4 mb-5 border bg-extra_light_green section-box-big border-light_grey"
+                >
+                  <!--* box-one -->
+                  <ul
+                    class="font-bold text-text_grey sm:flex sm:justify-between"
+                  >
+                    <li class="couple-second">Geprüfter Arbeitgeber</li>
+                    <li class="mb-1">
+                      <a class="red-bell" href="#">Anzeige speichern</a>
+                    </li>
+                    <li class="write-pad-black">8 Bewerbungen</li>
+                    <li class="identity">Veröffentlicht 23.01.2027</li>
+                  </ul>
+                </div>
+                <div
+                  class="p-4 mb-5 border bg-extra_light_green section-box-big border-light_grey sm:grid sm:grid-cols-8"
+                >
+                  <div
+                    class="section-box-content-one sm:col-start-1 sm:col-end-6"
+                  >
+                    <!--* box-two -->
+                    <p class="text-xs text-dark_green">
+                      Fachinformatiker/in-Anwendungsentwicklung
+                    </p>
+                    <h6 class="text-2xl font-bold text-dark_green">
+                      Designer:in (m/w/d)
+                    </h6>
+                    <ul class="flex justify-between mt-4 sm:mt-9">
+                      <li>
+                        <p class="text-xs text-light_grey">Typ</p>
+                        <h6>Gastronomie</h6>
+                      </li>
+                      <li>
+                        <p class="text-xs text-light_grey">Arbeitsort</p>
+                        <h6>Münster</h6>
+                      </li>
+                      <li>
+                        <p class="text-xs text-light_grey">Arbeitszeit</p>
+                        <h6>Vollzeit</h6>
+                      </li>
+                      <li>
+                        <p class="text-xs text-light_grey">Eintrittsdatum:</p>
+                        <h6>ab sofort</h6>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="p-4 mt-5 border section-box-content-two section-box-big border-light_grey sm:col-start-7 sm:col-end-11 sm:mt-0"
+                  >
+                    <img src="/images/firmenlogo.png" alt="Firmenlogo" />
+                  </div>
+                </div>
+                <div class="p-4 mb-5 border section-box-big border-light_grey">
+                  <!--* box-three -->
+                  <h6 class="text-2xl font-bold uppercase text-dark_green">
+                    Stellenausschreibung
+                  </h6>
+
+                  <p class="mt-5 mb-5 text-text_grey">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                    sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                    sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  </p>
+                  <strong class="text-lg text-dark_green">
+                    Deine Aufgaben
+                  </strong>
+                  <p class="mt-2 mb-5 text-text_grey">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                    sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                    sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  </p>
+                  <strong class="text-lg text-dark_green"> Dein Profil </strong>
+                  <p class="mt-2 mb-5 text-text_grey">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                    sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                    sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  </p>
+                  <strong class="text-lg text-dark_green">
+                    Was wir dir bieten
+                  </strong>
+                  <p class="mt-2 mb-5 text-text_grey">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                    sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                    sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  </p>
+                  <strong class="text-lg text-dark_green">
+                    Wie Du dich bei uns bewirbst
+                  </strong>
+                  <p class="mt-2 text-text_grey">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                    sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                    sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  </p>
+                  <button class="w-full py-3 mt-5 text-white bg-dark_green">
+                    Vollständige Stellenausschreibung lesen
+                  </button>
+                </div>
+                <div
+                  class="p-4 mb-5 border section-box-big border-light_grey sm:grid sm:grid-cols-2 sm:gap-10"
+                >
+                  <!--* box-four -->
+                  <div class="box-four-content-one">
+                    <h6 class="mb-4 text-2xl font-bold text-dark_green">
+                      Arbeitgeber Beschreibung
+                    </h6>
+                    <strong class="text-lg font-bold text-dark_green"
+                      >Kurzbeschreibung</strong
+                    >
+                    <p class="mb-3 text-text_grey">
+                      nonumy eirmod tempor invidunt ut labore et dolore magna
+                      aliquyam erat, sed diam voluptua. At vero eos et accusam
+                      et justo duo dolores et ea rebum. Stet clita kasd
+                      gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                      sit a
+                    </p>
+
+                    <strong class="text-lg font-bold text-dark_green"
+                      >Betriebsgröße</strong
+                    >
+                    <p class="mb-3 text-text_grey">Zwischen 1- 5 Mitarbeiter</p>
+
+                    <strong class="text-lg font-bold text-dark_green"
+                      >Barrierefreier Arbeitsplatz</strong
+                    >
+                    <p class="mb-3 text-text_grey">
+                      Barrierefreier Arbeitsplatz und Zufahrt zum
+                      Betriebsgelände vorhanden
+                    </p>
+                    <strong class="text-lg font-bold text-dark_green"
+                      >Interne Kontrollnummer</strong
+                    >
+                    <p class="mb-3 text-text_grey">34524545225323523</p>
+                  </div>
+                  <div class="box-four-content-two">
+                    <strong class="text-lg font-bold text-dark_green"
+                      >Anzahl verfügbarer Jobs</strong
+                    >
+                    <p class="mb-3 text-text_grey">
+                      Derzeit haben wir einen Job für beeinträchtigte Menschen
+                      in unserem Betrieb zu vergeben
+                    </p>
+
+                    <strong class="text-lg font-bold text-dark_green"
+                      >Befristung</strong
+                    >
+                    <p class="mb-3 text-text_grey">Unbefristet</p>
+
+                    <strong class="text-lg font-bold text-dark_green"
+                      >Arbeitszeitmodelle:</strong
+                    >
+                    <p class="mb-3 text-text_grey">Teilzeit</p>
+
+                    <strong class="text-lg font-bold text-dark_green"
+                      >Benefits für Mitarbeiter mit Handicap</strong
+                    >
+                    <p class="text-text_grey">
+                      Es können jederzeit Pausen gemacht werden, spezielle
+                      Ruheräume vorhanden, ein fester Vertrauensmitarbeiter
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="p-4 mb-5 border section-box-big border-light_grey sm:grid sm:grid-cols-12 sm:py-4 sm:pr-0"
+                >
+                  <!--* box-five -->
+                  <div
+                    class="lock-image-content sm:flex sm:self-center sm:col-start-1 sm:col-end-7"
+                  >
+                    <img
+                      class="mx-auto mb-4 sm:mb-0 sm:m-0 sm:mx-auto"
+                      src="/images/lock-image.svg"
+                      alt=""
+                    />
+                  </div>
+                  <span
+                    class="sm:h-full sm:w-1 sm:text-dark_green sm:bg-dark_green sm:col-start-7 sm:col-end-7"
+                  ></span>
+
+                  <div class="sm:col-start-8 sm:col-end-12">
+                    <strong
+                      class="flex leading-5 text-center text-dark_green sm:text-ellipsis"
+                      >Das Bewerbungsformular und Kontaktdaten sind nur für
+                      registrierte Mitglieder sichtbar
+                    </strong>
+                    <h6
+                      class="mt-5 mb-3 font-bold leading-5 text-center text-dark_green sm:text-xs sm:text-light_grey sm:mt-2"
+                    >
+                      Melden Sie sich jetzt kostenlos an und erstellen Sie sich
+                      einen Account
+                    </h6>
+
+                    <div class="sm:flex sm:items-center sm:flex-col">
+                      <div class="flex items-center justify-center mb-5">
+                        <button class="btn-white-second">
+                          Kostenlos registrieren
+                        </button>
+                      </div>
+                      <div class="flex items-center justify-center mb-5">
+                        <button class="btn-green-second">
+                          Melden Sie sich jetzt an
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="p-4 mb-5 border section-box-big border-light_grey">
+                  <h6
+                    class="text-2xl font-bold leading-7 text-dark_green sm:mb-9 sm:uppercase"
+                  >
+                    Informationen zur Bewerbung
+                  </h6>
+                  <!--* box-six -->
+                  <div class="sm:grid sm:grid-cols-10">
+                    <div
+                      class="box-six-content-one sm:col-start-1 sm:col-end-5"
+                    >
+                      <div>
+                        <strong class="text-lg text-dark_green"
+                          >Rückfragen und Bewerbung an:</strong
+                        >
+                        <div
+                          class="mt-5 text-text_grey sm:mt-1 sm:mb-6 sm:leading-5"
+                        >
+                          <p>Max Mustermann GmbH</p>
+                          <p>Z.Hd. Herrn Steven Schulz</p>
+                          <p>Musterstraße 25</p>
+                          <p>80636 Berlin</p>
+                        </div>
+                      </div>
+                      <div class="">
+                        <strong class="text-lg sm:block text-dark_green"
+                          >Telefon</strong
+                        >
+                        <a href="#">+49 89 20325678</a>
+                      </div>
+                      <div class="my-4">
+                        <strong class="text-lg text-dark_green"
+                          >E:Mail Adresse</strong
+                        >
+                        <a href="">Bewerbung@musterfirma.com</a>
+                      </div>
+                    </div>
+
+                    <div
+                      class="box-six-content-two sm:col-start-6 sm:col-end-11"
+                    >
+                      <strong class="text-lg text-dark_green"
+                        >Bitte bewerbe Dich …</strong
+                      >
+
+                      <ol class="pl-5 list-disc text-text_grey sm:leading-5">
+                        <li>mit dem Bewerbungsformular auf der Seite</li>
+                        <li>per Video ( Zoom, Google Meet )</li>
+                        <li>Persönliches Gespräch</li>
+                        <li>klassisch per Post</li>
+                      </ol>
+                      <strong class="flex mt-4 text-lg sm:mt-7 text-dark_green"
+                        >Bitte mit folgenden Unterlagen</strong
+                      >
+                      <ol class="pl-5 list-disc text-text_grey sm:leading-5">
+                        <li>Lebenslauf</li>
+                        <li>Zeugnisse</li>
+                        <li>Sonstige Unterlagen</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="p-4 border section-box-big border-light_grey">
+                  <!--* box-seven -->
+                  <div class="h-56 border-extra_light_grey border-x">
+                    <img
+                      class="object-cover w-full h-full max-h-none max-w-none"
+                      src="/images/map.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!--*---- Green Link Button ---------->
+                <div>
+                  <div class="">
+                    <a
+                      class="block green-button-link green-button-first"
+                      href="#"
+                      >Jetzt beim Arbeitgeber bewerben</a
+                    >
+                  </div>
+                  <div class="">
+                    <a
+                      class="block green-button-link green-button-second"
+                      href="#"
+                      >Zum internen Bewerbungsformur</a
+                    >
+                  </div>
+                </div>
+                <ul class="">
+                  <li class="">
+                    <div class="sm:flex sm:justify-end">
+                      <button class="btn-red">Anzeige melden</button>
+                    </div>
+                  </li>
+                </ul>
+
+                <!--*--------- Visible Setting --------->
+                <div class="">
+                  <div
+                    class="text-2xl font-bold uppercase visible-title text-dark_green"
+                  >
+                    <h6>Sichtbarkeitseinstellung</h6>
+                  </div>
+                  <div class="my-5">
+                    <div class="flex mb-4 visible-text-checkbox">
+                      <div>
+                        <input
+                          class="flex items-center justify-center pt-1 mr-5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-one sm:w-9 sm:h-9 sm:mt-1"
+                          type="checkbox"
+                          name=""
+                          id="checkbox-1"
+                        />
+                      </div>
+
+                      <div>
+                        <label
+                          class="block text-xs font-bold text-dark_green sm:text-base"
+                          for="checkbox-1"
+                          >Ja, mein Profil darf für jeden sichtbar sein</label
+                        >
+
+                        <h6 class="sm:text-xs text-xs_10px text-text_grey">
+                          Potenzielle Arbeitgeber können dein Profil finden
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="flex mb-4 visible-text-checkbox">
+                      <div>
+                        <input
+                          class="flex items-center justify-center pt-1 mr-5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-two sm:w-9 sm:h-9 sm:mt-1"
+                          type="checkbox"
+                          name=""
+                          id="checkbox-2"
+                        />
+                      </div>
+                      <div>
+                        <label
+                          class="block text-xs font-bold text-dark_green sm:text-base"
+                          for="checkbox-2"
+                          >Ja, Profil sichtbar aber hochgeladene Dateien
+                          geschützt
+                        </label>
+
+                        <h6 class="text-xs_10px text-text_grey sm:text-xs">
+                          Potenzielle Arbeitgeber können dein Profil finden
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="flex visible-text-checkbox">
+                      <div>
+                        <input
+                          class="flex items-center justify-center pt-1 mr-5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-three sm:w-9 sm:h-9 sm:mt-1"
+                          type="checkbox"
+                          name=""
+                          id="checkbox-3"
+                        />
+                      </div>
+
+                      <div>
+                        <label
+                          class="block text-xs font-bold text-dark_green sm:text-base"
+                          for="checkbox-3"
+                          >Ja, mein Profil darf für jeden sichtbar sein</label
+                        >
+
+                        <h6 class="text-xs_10px text-text_grey sm:text-xs">
+                          Potenzielle Arbeitgeber können dein Profil finden
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--*------------ Web Form ------------------->
+
+                <div class="mt-10 mb-5 webform-container">
+                  <div class="webform-title">
+                    <h6
+                      class="mb-2.5 text-2xl font-bold uppercase text-dark_green sm:mb-5"
+                    >
+                      Dein Grunddaten
+                    </h6>
+                  </div>
+                  <div class="webform-inputs">
+                    <form action="">
+                      <label
+                        class="block pb-1 text-xs font-bold text-dark_green sm:text-base"
+                        for="text-1"
+                        >Dein Vorname</label
+                      >
+                      <input
+                        class="w-full px-3 py-3 mb-3 border-2 text-text_grey border-dark_green"
+                        type="text"
+                        name="Dein Vorname"
+                        id="text-1"
+                      />
+                      <label
+                        class="block pb-1 text-xs font-bold text-dark_green sm:text-base"
+                        for="text-2"
+                        >Dein Familienstand</label
+                      >
+                      <input
+                        class="w-full px-3 py-3 mb-3 border-2 text-text_grey border-dark_green"
+                        type="text"
+                        name="Dein Vorname"
+                        id="text-2"
+                      />
+                      <label
+                        class="block pb-1 text-xs font-bold text-dark_green sm:text-base"
+                        for="text-3"
+                        >Straße und Hausnummer</label
+                      >
+                      <input
+                        class="w-full px-3 py-3 mb-3 border-2 text-text_grey border-dark_green"
+                        type="text"
+                        name="Dein Vorname"
+                        id="text-3"
+                      />
+                      <label
+                        class="block pb-1 text-xs font-bold text-dark_green sm:text-base"
+                        for="text-1"
+                        >Wohnort und Postleitzahl</label
+                      >
+                      <input
+                        class="w-full px-3 py-3 mb-3 border-2 text-text_grey border-dark_green"
+                        type="text"
+                        name="Dein Vorname"
+                        id="text-4"
+                      />
+                      <label
+                        class="block pb-1 text-xs font-bold text-dark_green sm:text-base"
+                        for="number"
+                        >Deine Telefonnummer</label
+                      >
+                      <input
+                        class="w-full px-3 py-3 mb-3 border-2 text-text_grey border-dark_green"
+                        type="number"
+                        name="Dein Vorname"
+                        id="number"
+                      />
+
+                      <label
+                        class="block pb-1 text-xs font-bold text-dark_green sm:text-base"
+                        for="email"
+                        >Deine E-Mail Adresse</label
+                      >
+                      <input
+                        class="w-full px-3 py-3 border-2 text-text_grey border-dark_green"
+                        type="email"
+                        name="Dein Vorname"
+                        id="email"
+                      />
+                    </form>
+                  </div>
+                </div>
+
+                <!--*---------- Document Upload -------------->
+                <div class="upload-button-container">
+                  <div>
+                    <h6
+                      class="mb-2 text-2xl font-bold uppercase text-dark_green"
+                    >
+                      Dokumente hochladen
+                    </h6>
+                    <h6 class="mb-4 text-xs text-light_grey sm:text-sm">
+                      Bitte lade hier deine Zeugnisse, ärztliche Ateste oder
+                      sonstige Dokumente hoch. Du kannst PDF, TXT, DOC, JPG,
+                      MPG4 mit einer Größe von bis zu 10 MB hochladen
+                    </h6>
+                    <div class="font-bold text-text_grey">
+                      <div class="mb-5">
+                        <label
+                          for="file"
+                          class="items-center block border-2 cursor-pointer upload-button text-text_grey border-dark_green"
+                          >Lade dein Anschreiben hoch
+                          <input class="hidden" type="file" name="" id="file" />
+                        </label>
+                      </div>
+                      <div class="mb-5">
+                        <label
+                          for="file"
+                          class="items-center block border-2 cursor-pointer upload-button text-text_grey border-dark_green"
+                          >Lade dein Anschreiben hoch
+                          <input class="hidden" type="file" name="" id="file" />
+                        </label>
+                      </div>
+                      <div class="mb-5">
+                        <label
+                          for="file"
+                          class="items-center block border-2 cursor-pointer upload-button text-text_grey border-dark_green"
+                          >Lade dein Anschreiben hoch
+                          <input class="hidden" type="file" name="" id="file" />
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <h6
+                    class="my-4 font-bold text-center text-xs_10px sm:text-xs text-dark_red"
+                  >
+                    Unabhängig von deinen Einstellungen oben kannst du nur
+                    einzelne Dokumente sperren oder freigeben. Bitte beachte das
+                    wenn dein Profil nur für Dich sichtbar ist das dies auch
+                    deine hochgeladenen Dokumente betrifft.
+                  </h6>
+
+                  <a
+                    class="block mb-10 text-lg font-bold text-center text-dark_green"
+                    href=""
+                    >Klicke hier im weitere Dateien hochzuladen</a
+                  >
+                </div>
+
+                <!--*------------ Jobs Link ---------------->
+                <div class="list-none jobs-list">
+                  <h6
+                    class="mb-5 text-3xl font-bold text-center uppercase text-dark_green"
+                  >
+                    Unsere Jobsparten
+                  </h6>
+                  <ul class="text-center text-white">
+                    <li class="">
+                      <a
+                        class="block py-3 mb-4 border bg-dark_green border-dark_green"
+                        href="#"
+                        >Jobs in der Gastronomie
+                      </a>
+                    </li>
+                    <li class="">
+                      <a
+                        class="block py-3 mb-4 border bg-dark_green border-dark_green"
+                        href="#"
+                        >Jobs im Einzelhandel
+                      </a>
+                    </li>
+                    <li class="">
+                      <a
+                        class="block py-3 mb-4 border bg-dark_green border-dark_green"
+                        href="#"
+                        >Jobs im sozialen Bereich
+                      </a>
+                    </li>
+                    <li class="">
+                      <a
+                        class="block py-3 mb-4 border bg-dark_green border-dark_green"
+                        href="#"
+                        >Jobs im technischen Bereich</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        class="block py-3 mb-4 border bg-dark_green border-dark_green"
+                        href="#"
+                        >Jobs auf Stundenbasis</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        class="block py-3 mb-5 border bg-dark_green border-dark_green"
+                        href="#"
+                        >Jobs auf Stundenbasis</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--*----------- Title and Text -------------->
+                <div>
+                  <h6 class="text-2xl font-bold uppercase text-dark_green">
+                    Beschreibe dich kurz
+                  </h6>
+                  <h6
+                    class="mt-2 mb-3 text-xs font-bold text-light_grey sm:text-sm"
+                  >
+                    Bitte beschreibe Dich hier kurz damit dich dein neuer
+                    potenzieller Arbeitergeber besser kennenlernen kann. Bitte
+                    nenne auch in welcher Form Du beeinträchtigt bist …..
+                  </h6>
+                  <textarea
+                    class="w-full p-3 border-2 resize h-52 text-start border-dark_green text-xs_10px sm:text-sm text-light_grey"
+                    name=""
+                    id=""
+                    cols="100"
+                    rows=""
+                  >
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit am.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum Stet clita kasd gubergren, no sea takimata sanctus est Loreipsum dolor sit amet. Lorem ipsum dolor si amet, consetetur sadi
+                     </textarea
+                  >
+                  <div class="flex items-center gap-4 my-3">
+                    <img
+                      class="py-1.5 border-2 w-8 h-8 border-text_grey inline"
+                      src="/images/red-lock-icon.svg"
+                      alt=""
+                    />
+                    <div class="">
+                      <h6
+                        class="text-xs font-bold leading-2 text-dark_green sm:text-base"
+                      >
+                        Diese Informationen öffentlich freischalten
+                      </h6>
+                      <h6 class="text-xs_10px sm:text-sm text-text_grey">
+                        Unabhängig von den oberen Einstellungen
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <!--*----------- Title and checkbox ------------->
+                <div>
+                  <h6
+                    class="text-2xl font-bold uppercase details-title text-dark_green sm:mb-2"
+                  >
+                    Weitere Details von dir
+                  </h6>
+                  <h6
+                    class="text-xs font-bold text-dark_green sm:text-base sm:mb-1"
+                  >
+                    Alle Informationen sind natürlich freiwillig
+                  </h6>
+                  <h6 class="text-light_grey text-xs_10px sm:text-xs">
+                    Informationen mit Haken werden nur bei öffentlichen Profilen
+                    angezeigt
+                  </h6>
+
+                  <div class="grid grid-cols-2 my-8 checkBox-container">
+                    <div>
+                      <div class="flex items-center mb-4 visible-text-checkbox">
+                        <div>
+                          <input
+                            class="flex items-center justify-center mr-2.5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-one sm:w-9 sm:h-9 sm:mt-1"
+                            type="checkbox"
+                            name=""
+                            id="checkbox-4"
+                          />
+                        </div>
+
+                        <div>
+                          <label
+                            class="block text-xs font-bold text-dark_green sm:text-base"
+                            for="checkbox-4"
+                            >Ich bin Raucher</label
+                          >
+                        </div>
+                      </div>
+                      <div class="flex items-center mb-4 visible-text-checkbox">
+                        <div>
+                          <input
+                            class="flex items-center justify-center mr-2.5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-one sm:w-9 sm:h-9 sm:mt-1"
+                            type="checkbox"
+                            name=""
+                            id="checkbox-5"
+                          />
+                        </div>
+
+                        <div>
+                          <label
+                            class="block text-xs font-bold text-dark_green sm:text-base"
+                            for="checkbox-5"
+                            >Brillenträger</label
+                          >
+                        </div>
+                      </div>
+                      <div class="flex items-center mb-4 visible-text-checkbox">
+                        <div>
+                          <input
+                            class="flex items-center justify-center mr-2.5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-one sm:w-9 sm:h-9 sm:mt-1"
+                            type="checkbox"
+                            name=""
+                            id="checkbox-6"
+                          />
+                        </div>
+
+                        <div>
+                          <label
+                            class="block text-xs font-bold text-dark_green sm:text-base"
+                            for="checkbox-6"
+                            >Körperlich eingeschränkt</label
+                          >
+                        </div>
+                      </div>
+                      <div class="flex items-center mb-4 visible-text-checkbox">
+                        <div>
+                          <input
+                            class="flex items-center justify-center mr-2.5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-one sm:w-9 sm:h-9 sm:mt-1"
+                            type="checkbox"
+                            name=""
+                            id="checkbox-7"
+                          />
+                        </div>
+
+                        <div>
+                          <label
+                            class="block text-xs font-bold text-dark_green sm:text-base"
+                            for="checkbox-7"
+                            >Führerschein vorhanden</label
+                          >
+                        </div>
+                      </div>
+                      <div class="flex items-center mb-4 visible-text-checkbox">
+                        <div>
+                          <input
+                            class="flex items-center justify-center mr-2.5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-one sm:w-9 sm:h-9 sm:mt-1"
+                            type="checkbox"
+                            name=""
+                            id="checkbox-7"
+                          />
+                        </div>
+
+                        <div>
+                          <label
+                            class="block text-xs font-bold text-dark_green sm:text-base"
+                            for="checkbox-7"
+                            >Ich bin Schwerbehindert</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex items-center mb-4 visible-text-checkbox">
+                        <div>
+                          <input
+                            class="flex items-center justify-center mr-2.5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-one sm:w-9 sm:h-9 sm:mt-1"
+                            type="checkbox"
+                            name=""
+                            id="checkbox-8"
+                          />
+                        </div>
+
+                        <div>
+                          <label
+                            class="block text-xs font-bold text-dark_green sm:text-base"
+                            for="checkbox-8"
+                            >Ich bin Schwerbehindert</label
+                          >
+                        </div>
+                      </div>
+                      <div class="flex items-center mb-4 visible-text-checkbox">
+                        <div>
+                          <input
+                            class="flex items-center justify-center mr-2.5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-one sm:w-9 sm:h-9 sm:mt-1"
+                            type="checkbox"
+                            name=""
+                            id="checkbox-9"
+                          />
+                        </div>
+
+                        <div>
+                          <label
+                            class="block text-xs font-bold text-dark_green sm:text-base"
+                            for="checkbox-9"
+                            >Ich sitze im Rollstuhl</label
+                          >
+                        </div>
+                      </div>
+                      <div class="flex items-center mb-4 visible-text-checkbox">
+                        <div>
+                          <input
+                            class="flex items-center justify-center mr-2.5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-one sm:w-9 sm:h-9 sm:mt-1"
+                            type="checkbox"
+                            name=""
+                            id="checkbox-10"
+                          />
+                        </div>
+
+                        <div>
+                          <label
+                            class="block text-xs font-bold text-dark_green sm:text-base"
+                            for="checkbox-10"
+                            >Körperlich Top Fit</label
+                          >
+                        </div>
+                      </div>
+                      <div class="flex items-center mb-4 visible-text-checkbox">
+                        <div>
+                          <input
+                            class="flex items-center justify-center mr-2.5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-one sm:w-9 sm:h-9 sm:mt-1"
+                            type="checkbox"
+                            name=""
+                            id="checkbox-11"
+                          />
+                        </div>
+
+                        <div>
+                          <label
+                            class="block text-xs font-bold text-dark_green sm:text-base"
+                            for="checkbox-11"
+                            >Kein Führerschein</label
+                          >
+                        </div>
+                      </div>
+                      <div class="flex items-center mb-4 visible-text-checkbox">
+                        <div>
+                          <input
+                            class="flex items-center justify-center mr-2.5 border-2 outline-none appearance-none cursor-pointer w-7 h-7 border-dark_green check-input-one sm:w-9 sm:h-9 sm:mt-1"
+                            type="checkbox"
+                            name=""
+                            id="checkbox-12"
+                          />
+                        </div>
+
+                        <div>
+                          <label
+                            class="block text-xs font-bold text-dark_green sm:text-base"
+                            for="checkbox-12"
+                            >Ich habe einen Betreuer</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button class="w-full py-3 mb-5 text-white bg-dark_green">
+                    Profildaten jetzt speichern
+                  </button>
+                </div>
+                <div>
+                  <h6
+                    class="py-3.5 sm:leading-none font-bold leading-4 text-center uppercase border-2 px-14 text-dark_red border-dark_red"
+                  >
+                    Achtung dein Profil ist derzeit nur für Dich sichtbar
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--+---------------------------------- Blog-Section ------------------------------------->
+        <section class="">
+          <!--*--------- Title ---------->
+          <div class="px-5 mx-auto mt-16 max-w-1300 sm:pr-0">
+            <h6
+              class="mb-4 text-3xl font-bold text-center uppercase text-dark_green sm:text-6xl sm:text-left"
+            >
+              Neues Aus Unserem Blog
+            </h6>
+
+            <!--*--------- Cards ---------->
+            <div
+              class="block cards sm:grid sm:gap-5 sm:grid-rows-1 sm:grid-cols-3"
+            >
+              <div class="relative mb-5 card-one card sm:mb-0">
+                <a href="">
+                  <img class="w-full" src="/images/card-img-1.svg" alt="" />
+                  <h6
+                    class="w-full absolute bottom-0 py-1.5 leading-5 text-center text-white bg-dark_green"
+                  >
+                    Warum Unternehmen profitieren wenn Sie beeinträchtigte
+                    Menschen einstellen
+                  </h6>
+                </a>
+              </div>
+              <div class="relative mb-5 card-two card sm:mb-0">
+                <a href="">
+                  <img class="w-full" src="/images/card-img-2.svg" alt="" />
+                  <h6
+                    class="w-full absolute bottom-0 py-1.5 leading-5 text-center text-white bg-dark_green"
+                  >
+                    Behinderte Arbeitnehmer 50+ einstellen Was Sie wissen
+                    sollten ….
+                  </h6>
+                </a>
+              </div>
+              <div class="relative card-three card">
+                <a href=""
+                  ><img class="w-full" src="/images/card-img-3.svg" alt="" />
+                  <h6
+                    class="w-full absolute bottom-0 py-1.5 leading-5 text-center text-white bg-dark_green"
+                  >
+                    Verdoppelung des Firmenumsatzes nachdem Menschen mit
+                    Handicap….
+                  </h6>
+                </a>
+              </div>
+            </div>
+
+            <!--*--------- Sub-Title ---------->
+            <div class="sm:grid sm:grid-cols-12">
+              <h6
+                class="text-2xl font-bold leading-7 text-center mt-7 text-dark_green sm:col-start-3 sm:col-end-11"
+              >
+                Folgenden Firmen haben wir bereits erfolgreich Arbeitskräfte mit
+                einem Handicap vermittelt können
+              </h6>
+            </div>
+            <!--*--------- 5 Logo ---------->
+            <ul
+              class="grid grid-cols-3 gap-5 my-6 sm:grid sm:grid-cols-5 sm:pr-5"
+            >
+              <li
+                class="p-4 border section-box-content-two section-box-big border-light_grey"
+              >
+                <img src="" alt="" />logo
+              </li>
+              <li
+                class="p-4 border section-box-content-two section-box-big border-light_grey"
+              >
+                <img src="" alt="" />logo
+              </li>
+              <li
+                class="p-4 border section-box-content-two section-box-big border-light_grey"
+              >
+                <img src="" alt="" />logo
+              </li>
+              <li
+                class="p-4 border section-box-content-two section-box-big border-light_grey"
+              >
+                <img src="" alt="" />logo
+              </li>
+              <li
+                class="p-4 border section-box-content-two section-box-big border-light_grey"
+              >
+                <img src="" alt="" />logo
+              </li>
+            </ul>
+            <div class="sm:grid sm:grid-cols-10">
+              <p
+                class="mb-5 text-lg font-bold leading-6 text-center text-text_grey sm:col-start-3 sm:col-end-9 sm:text-lg"
+              >
+                Wenn auch Sie eine freie Stelle in Ihrem Betrieb mit einer
+                geförderten Arbeitskraft Beschäftigen möchten dann
+                <a href="">kontaktieren</a>
+                Sie uns gerne
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!--+---------------------------------- Footer -------------------------------------->
+        <footer class="block py-8 text-white sm:pb-36 bg-text_grey">
+          <div class="px-5 mx-auto sm:max-w-1300 sm:grid sm:grid-cols-3">
+            <div
+              class="text-center logo-contact sm:flex sm:flex-col sm:justify-start sm:items-start"
+            >
+              <!--* Logo-Contact  -->
+
+              <img
+                class="inline-block mx-auto w-96 sm:m-0"
+                src="/images/myLogo.svg"
+                alt=""
+              />
+
+              <p class="mt-3 mb-5 sm:text-left sm:leading-3">
+                Ist ein Projekt von
+              </p>
+
+              <strong class="">Company Name </strong>
+              <p
+                class="w-24 mx-auto mb-5 sm:text-left sm:m-0 sm:w-1/4 sm:leading-5"
+              >
+                Address: XYZ Area, Surat
+              </p>
+              <p class="mb-5 sm:text-left sm:leading-5">Owner: Hello World</p>
+
+              <p class="sm:text-left sm:leading-5">
+                Lorem ipsum dolor sit: amet, consectetur adipisicing elit. Nobis
+                eum asperiores facilis: totam enim voluptatum eaque quae. Facere
+                quod aspernatur odio. Magnam?
+              </p>
+            </div>
+
+            <!--* List-one --->
+            <div
+              class="flex items-center items-baseline justify-center my-10 leading-8 text-center list-one sm:my-0 sm:text-left"
+            >
+              <ul>
+                <li>
+                  <a href="">Jobs für Beeinträchtigte in Nordrhein-Westfalen</a>
+                </li>
+                <li>
+                  <a href="">Jobs für Beeinträchtigte in Rheinland-Pfalz</a>
+                </li>
+                <li><a href="">Jobs für Beeinträchtigte in Saarland</a></li>
+                <li><a href="">Jobs für Beeinträchtigte in Sachsen</a></li>
+                <li>
+                  <a href="">Jobs für Beeinträchtigte in Sachsen-Anhalt</a>
+                </li>
+                <li>
+                  <a href="">Jobs für Beeinträchtigte in Schleswig-Holstein</a>
+                </li>
+                <li><a href="">Jobs für Beeinträchtigte in Thüringen</a></li>
+                <li><a href="">Jobs für Beeinträchtigte in Hessen</a></li>
+              </ul>
+            </div>
+
+            <!--* List-Two --->
+            <div
+              class="flex items-center items-baseline justify-center leading-8 text-center sm:text-left"
+            >
+              <ul>
+                <li>
+                  <a href="">Jobs für Beeinträchtigte in Nordrhein-Westfalen</a>
+                </li>
+                <li>
+                  <a href="">Jobs für Beeinträchtigte in Rheinland-Pfalz</a>
+                </li>
+                <li><a href="">Jobs für Beeinträchtigte in Saarland</a></li>
+                <li><a href="">Jobs für Beeinträchtigte in Sachsen</a></li>
+                <li>
+                  <a href="">Jobs für Beeinträchtigte in Sachsen-Anhalt</a>
+                </li>
+                <li>
+                  <a href="">Jobs für Beeinträchtigte in Schleswig-Holstein</a>
+                </li>
+                <li><a href="">Jobs für Beeinträchtigte in Thüringen</a></li>
+                <li><a href="">Jobs für Beeinträchtigte in Hessen</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="px-5 mx-auto mt-10 text-center sm:max-w-1300">
+            <p>
+              &#xa9; This is just to demo my web development skills. logos used
+              belong to their owners. Only for DEMO
+            </p>
+          </div>
+        </footer>
+      </section>
+    </section>
+  </body>
+</html>
